@@ -1,7 +1,9 @@
+var musica = new Audio ()
+musica.src="Narutoflauta.mp3"
 const DECREMENTO = 10;
 const DECREMENTO_MIN = 1;
 const DECREMENTO_MEDIO = 5;
-const VELOCIDAD = 100;
+const VELOCIDAD = 300;
 var status_jugador1 = {
   palabraActual: 'Suerte',
   estres: 0,
@@ -448,6 +450,7 @@ function cambia2(){
 }
 function start(){
 
+  musica.play(); 
   timer_hambre_2();
   timer_cansancio_2 ();  
   timer_estres_2 ();
