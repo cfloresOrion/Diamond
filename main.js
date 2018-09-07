@@ -1,5 +1,5 @@
 var musica = new Audio ()
-musica.src="Narutoflauta.mp3"
+musica.src="./VIDEO RANDOM v 2 -¡tlacuache turu turu!-.mp3"
 const DECREMENTO = 10;
 const DECREMENTO_MIN = 1;
 const DECREMENTO_MEDIO = 5;
