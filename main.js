@@ -3,7 +3,7 @@ musica.src="./VIDEO RANDOM v 2 -¡tlacuache turu turu!-.mp3"
 const DECREMENTO = 10;
 const DECREMENTO_MIN = 1;
 const DECREMENTO_MEDIO = 5;
-const VELOCIDAD = 50;
+const VELOCIDAD = 100;
 var status_jugador1 = {
   palabraActual: 'Suerte',
   estres: 0,
